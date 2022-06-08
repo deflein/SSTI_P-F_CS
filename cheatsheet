@@ -1,0 +1,7 @@
+{{ config.items() }}
+ {{ config.from_object(‘os’) }}*
+ {{ config.items() }}
+ {{ ‘’.__class__.__mro__ }}
+ {{ ‘’.__class__.__mro__[1].__subclasses__() }}
+ {{‘’.__class__.__mro__[1].__subclasses__()[index:]}}.
+ {{‘’.__class__.__mro__[1].__subclasses__()[index]}} 
